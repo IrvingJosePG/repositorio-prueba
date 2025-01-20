@@ -7,6 +7,7 @@ public class numberpar{
         System.out.print("Ingrese un numero:  ");
         int num = scanner.nextInt();
         scanner.close();
+        System.out.println("Gracias por el numero.");
         if(num%2==0){
             espar = true;
         }
